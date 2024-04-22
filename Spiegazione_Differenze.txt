@@ -1,0 +1,9 @@
+1)Scansione con firewall spento (firewall_off):
+	È stata in grado di identificare e riportare tre porte aperte sul sistema: 135/tcp, 139/tcp e 	445/tcp.
+	La latenza è stata molto bassa, intorno a 0.0048 secondi, il che suggerisce una comunicazione 	diretta senza ritardi significativi.
+	La durata totale della scansione è stata di 7.62 secondi.
+2)Scansione con firewall attivato (firewall_on):
+	La scansione ha riportato solo due porte aperte: 139/tcp e 445/tcp.
+	Tuttavia, ci sono state 998 porte filtrate, ovvero porte che non rispondo alla scansione, a causa 	del firewall, nè come aperte nè come chiuse.
+	La latenza rimane bassa, leggermente inferiore alla scansione precedente, a circa 0.0037 secondi.
+	La scansione ha richiesto più tempo rispetto alla scansione precedente, con una durata totale di 	11.08 secondi.
